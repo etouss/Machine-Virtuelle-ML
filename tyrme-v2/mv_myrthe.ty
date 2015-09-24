@@ -1,0 +1,9 @@
+let instr = [(1,0),(2,0)] in 
+letf machine [pc,acc,stack] =
+  if pc = 2 
+    then acc
+  else if fst(instr[pc]) = 1
+    then machine [(pc+1),snd(instr[pc]),stack]
+  else if fst(instr[pc]) = 2
+    then machine [(pc+1),acc,(acc::stack)]
+

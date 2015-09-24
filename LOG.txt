@@ -1,0 +1,11 @@
+v1 -> v2 : Les typos suivantes ont été corrigées:
+
+- Dans la partie 2.4 on doit lire VAL INPUT_CHAR : IN_CHANNEL ->
+  CHAR et non VAL INPUT_CHAR : OUT_CHANNEL -> CHAR.
+ 
+- Dans le fichier tyrme.ml il y a deux fonctions assemble,
+  ASSEMBLE_INSTR et ASSEMBLE. Les deux doivent prendre un out_channel
+  en argument afin d’écrire le code source dans un fichier.
+
+
+

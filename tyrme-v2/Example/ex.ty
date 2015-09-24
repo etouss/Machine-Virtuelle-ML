@@ -1,0 +1,1 @@
+let f x = if x <= 5 then true else false in f 7
